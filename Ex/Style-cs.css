@@ -1,0 +1,62 @@
+.menu{
+    display:flex;
+    align-items: center;
+    background-color: black;
+    Padding: 50 20px;
+    justify-content: space-between;
+    
+}
+.headpage{
+    color: white;
+    Margin: 0;
+    
+}
+.nav1{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;       
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.nav1 Li{
+    margin:0 10px;
+}
+.nav1 a{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+
+}
+.start-web{
+    background-color: palevioletred;
+    color: white;
+    padding:10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.tab1, .tab2 {
+    Display: inline-block;
+    Margin-top:100px;
+    Margin-right:200px;
+    
+}
+.tab11, .tab21{
+    Border: 1px solid black;
+}
+.jss{
+    font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
