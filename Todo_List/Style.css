@@ -84,9 +84,9 @@ h1 {
 }
 
 .edit-btn{
-    background: olivedrab;
-    color: white;
+    background: yellow;
     border: none;
+
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
@@ -94,9 +94,31 @@ h1 {
 }
 
 .edit-btn:hover{
-    background: rgb(115, 211, 115);
+    background: yellowgreen;
 }
 
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+
+    flex-shrink: 1; /* Cho phép co lại khi cần */
+    max-width: 70%; /* Giới hạn chiều rộng tối đa */
+}
+
+.task-content span {
+    max-width: 200px; /* Giới hạn chiều rộng tối đa */
+    white-space: nowrap; /* Ngăn văn bản xuống dòng */
+    overflow: hidden; /* Ẩn phần văn bản bị tràn */
+    
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+    
+
+}
 .completed {
     text-decoration: line-through;
     color: #888;
